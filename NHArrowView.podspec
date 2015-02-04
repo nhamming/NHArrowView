@@ -11,12 +11,6 @@ Pod::Spec.new do |s|
   s.name             = "NHArrowView"
   s.version          = "0.1.0"
   s.summary          = "A simple directional arrow with animated rotation."
-  s.description      = <<-DESC
-                       An optional longer description of NHArrowView
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
   s.homepage         = "https://github.ehealthinnovation.org/JDRF/NHArrowView"
   # s.homepage         = "https://github.com/<GITHUB_USERNAME>/NHArrowView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
