@@ -11,12 +11,11 @@ Pod::Spec.new do |s|
   s.name             = "NHArrowView"
   s.version          = "0.1.0"
   s.summary          = "A simple directional arrow with animated rotation."
-  s.homepage         = "https://github.ehealthinnovation.org/JDRF/NHArrowView"
-  # s.homepage         = "https://github.com/<GITHUB_USERNAME>/NHArrowView"
+  s.homepage         = "https://github.com/nhamming/NHArrowView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Nathaniel Hamming" => "nathaniel.hamming@gmail.com" }
-  s.source           = { :git => "https://github.ehealthinnovation.org/JDRF/NHArrowView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/nhamming/NHArrowView.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/NateHam80'
 
   s.platform     = :ios, '7.0'
