@@ -12,12 +12,12 @@
 
 @implementation UIBezierPath (Arrow)
 
-+ (UIBezierPath *)bezierPathWithArrowFromPoint:(CGPoint)startPoint
-                                       toPoint:(CGPoint)endPoint
++ (UIBezierPath *)bezierPathWithArrowFromPoint:(CGPoint)tailPoint
+                                       toPoint:(CGPoint)tipPoint
                                      tailWidth:(CGFloat)tailWidth
                                      headWidth:(CGFloat)headWidth
                                     headLength:(CGFloat)headLength {
-    CGFloat length = hypotf(endPoint.x - startPoint.x, endPoint.y - startPoint.y);
+    CGFloat length = hypotf(tipPoint.x - tailPoint.x, tipPoint.y - tailPoint.y);
     
     CGPoint points[kArrowPointCount];
     [self getAxisAlignedArrowPoints:points
@@ -26,9 +26,9 @@
                           headWidth:headWidth
                          headLength:headLength];
     
-    CGAffineTransform transform = [self transformForStartPoint:startPoint
-                                                      endPoint:endPoint
-                                                        length:length];
+    CGAffineTransform transform = [self transformForTailPoint:tailPoint
+                                                     tipPoint:tipPoint
+                                                       length:length];
     
     CGMutablePathRef cgPath = CGPathCreateMutable();
     CGPathAddLines(cgPath, &transform, points, sizeof points / sizeof *points);
@@ -54,12 +54,12 @@
     points[6] = CGPointMake(0, -tailWidth / 2);
 }
 
-+ (CGAffineTransform)transformForStartPoint:(CGPoint)startPoint
-                                   endPoint:(CGPoint)endPoint
-                                     length:(CGFloat)length {
-    CGFloat cosine = (endPoint.x - startPoint.x) / length;
-    CGFloat sine = (endPoint.y - startPoint.y) / length;
-    return (CGAffineTransform){ cosine, sine, -sine, cosine, startPoint.x, startPoint.y };
++ (CGAffineTransform)transformForTailPoint:(CGPoint)tailPoint
+                                  tipPoint:(CGPoint)tipPoint
+                                    length:(CGFloat)length {
+    CGFloat cosine = (tipPoint.x - tailPoint.x) / length;
+    CGFloat sine = (tipPoint.y - tailPoint.y) / length;
+    return (CGAffineTransform){ cosine, sine, -sine, cosine, tailPoint.x, tailPoint.y };
 }
 
 @end

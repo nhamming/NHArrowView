@@ -35,6 +35,7 @@
     {
         self.strokeColor = [UIColor redColor];
         self.fillColor = [UIColor redColor];
+        [self setBackgroundColor:[UIColor clearColor]];
         [self setDefaults];
     }
     return self;
@@ -45,6 +46,7 @@
     if (self = [super initWithFrame: frame]) {
         self.strokeColor = [UIColor redColor];
         self.fillColor = [UIColor redColor];
+        [self setBackgroundColor:[UIColor clearColor]];
         [self setDefaults];
     }
     return self;
@@ -53,8 +55,7 @@
 - (void)setDefaults;
 {
     [self setMultipleTouchEnabled:NO];
-    [self setBackgroundColor:[UIColor clearColor]];
-    [self animatedRotateToDegrees: 0];
+    [self animatedRotateToDegree: 0];
     self.startingPoint = CGPointMake(kMarginX, self.frame.size.height / 2.);
     self.endingPoint = CGPointMake(self.frame.size.width - kMarginX, self.frame.size.height / 2.);
     self.strokeWidth = 2.;
@@ -84,20 +85,22 @@
     [self.path fill];
 }
 
-- (void)animatedRotateToDegrees:(CGFloat)degrees;
+#pragma mark - Rotation methods
+
+- (void)animatedRotateToDegree:(CGFloat)degree;
 {
-    CGFloat rads = DEGREES_TO_RADIANS(degrees);
-    [self animatedRotateToRadians: rads];
+    CGFloat rad = DEGREES_TO_RADIANS(degree);
+    [self animatedRotateToRadian: rad];
 }
 
-- (void)animatedRotateToRadians:(CGFloat)rads;
+- (void)animatedRotateToRadian:(CGFloat)rad;
 {
-    [self rotateToRadians: rads animated: YES duration: kDefaultRotationDuration];
+    [self rotateToRadian: rad animated: YES duration: kDefaultRotationDuration];
 }
 
-- (void)rotateToRadians:(CGFloat)rads animated:(BOOL)animated duration:(CGFloat)duration;
+- (void)rotateToRadian:(CGFloat)rad animated:(BOOL)animated duration:(CGFloat)duration;
 {
-    CGAffineTransform transform = CGAffineTransformRotate(CGAffineTransformIdentity, rads);
+    CGAffineTransform transform = CGAffineTransformRotate(CGAffineTransformIdentity, rad);
     if (animated) {
         [UIView animateWithDuration: duration
                          animations:^{

@@ -35,8 +35,20 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="9iH-BT-iUO">
+                                <rect key="frame" x="16" y="257" width="288" height="29"/>
+                                <segments>
+                                    <segment title="Red"/>
+                                    <segment title="Blue"/>
+                                    <segment title="Green"/>
+                                    <segment title="Gray"/>
+                                </segments>
+                                <connections>
+                                    <action selector="colorSelected:" destination="vXZ-lx-hvc" eventType="valueChanged" id="1Nn-cy-oKU"/>
+                                </connections>
+                            </segmentedControl>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YLG-1i-gBv" userLabel="Head Length Container">
-                                <rect key="frame" x="16" y="257" width="288" height="44"/>
+                                <rect key="frame" x="16" y="293" width="288" height="44"/>
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="14" minValue="1" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="Yki-WJ-uzg" userLabel="Head Length Slider">
                                         <rect key="frame" x="0.0" y="8" width="288" height="31"/>
@@ -58,7 +70,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="abt-qS-YOP" userLabel="Head Width Container">
-                                <rect key="frame" x="16" y="309" width="288" height="44"/>
+                                <rect key="frame" x="16" y="345" width="288" height="44"/>
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="14" minValue="1" maxValue="30" translatesAutoresizingMaskIntoConstraints="NO" id="ibF-Kr-ZB8" userLabel="Head Width Slider">
                                         <rect key="frame" x="0.0" y="8" width="288" height="31"/>
@@ -80,7 +92,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hfH-A0-A9O" userLabel="Tail Width Container">
-                                <rect key="frame" x="16" y="361" width="288" height="44"/>
+                                <rect key="frame" x="16" y="397" width="288" height="44"/>
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="7" minValue="1" maxValue="30" translatesAutoresizingMaskIntoConstraints="NO" id="gWt-op-sjV" userLabel="Tail Width Slider">
                                         <rect key="frame" x="0.0" y="8" width="288" height="31"/>
@@ -102,7 +114,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qRW-oJ-Q9f" userLabel="Stroke Width Container">
-                                <rect key="frame" x="16" y="413" width="288" height="44"/>
+                                <rect key="frame" x="16" y="449" width="288" height="44"/>
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="pWh-bd-Pbf" userLabel="Stroke Width Slider">
                                         <rect key="frame" x="0.0" y="8" width="288" height="31"/>
@@ -124,7 +136,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mOC-l0-bLM">
-                                <rect key="frame" x="140" y="465" width="40" height="30"/>
+                                <rect key="frame" x="140" y="501" width="40" height="30"/>
                                 <state key="normal" title="Reset">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -143,20 +155,24 @@
                             <constraint firstItem="hfH-A0-A9O" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="6z8-HU-pww"/>
                             <constraint firstItem="abt-qS-YOP" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="BwY-Cb-Bdj"/>
                             <constraint firstItem="8oP-oF-m6G" firstAttribute="top" secondItem="XIo-ZF-7tL" secondAttribute="bottom" constant="8" id="CdT-i0-gMp"/>
+                            <constraint firstItem="9iH-BT-iUO" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="FFR-mQ-fJE"/>
                             <constraint firstItem="abt-qS-YOP" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="ISQ-8y-kGz"/>
                             <constraint firstItem="8oP-oF-m6G" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Ihv-Zi-6b8"/>
                             <constraint firstItem="XIo-ZF-7tL" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="Mnw-l6-AhW"/>
+                            <constraint firstItem="9iH-BT-iUO" firstAttribute="top" secondItem="8oP-oF-m6G" secondAttribute="bottom" constant="8" id="Qak-z7-zkf"/>
                             <constraint firstItem="mOC-l0-bLM" firstAttribute="top" secondItem="qRW-oJ-Q9f" secondAttribute="bottom" constant="8" id="RTN-Ah-Dow"/>
                             <constraint firstItem="YLG-1i-gBv" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Xvq-sE-J3U"/>
                             <constraint firstItem="8oP-oF-m6G" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="ct4-Ox-kcT"/>
                             <constraint firstItem="qRW-oJ-Q9f" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="ePv-mm-B20"/>
                             <constraint firstItem="hfH-A0-A9O" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="fKS-cv-b1e"/>
                             <constraint firstAttribute="centerX" secondItem="XIo-ZF-7tL" secondAttribute="centerX" id="hFv-UJ-wmS"/>
-                            <constraint firstItem="YLG-1i-gBv" firstAttribute="top" secondItem="8oP-oF-m6G" secondAttribute="bottom" constant="8" id="juI-zq-13C"/>
+                            <constraint firstItem="9iH-BT-iUO" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="kY6-YK-M5W"/>
                             <constraint firstItem="XIo-ZF-7tL" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="44" id="kyS-Pv-bew"/>
                             <constraint firstItem="qRW-oJ-Q9f" firstAttribute="top" secondItem="hfH-A0-A9O" secondAttribute="bottom" constant="8" id="lKT-4Y-b0h"/>
                             <constraint firstItem="XIo-ZF-7tL" firstAttribute="centerX" secondItem="8oP-oF-m6G" secondAttribute="centerX" id="mNx-gL-bGy"/>
                             <constraint firstAttribute="centerX" secondItem="mOC-l0-bLM" secondAttribute="centerX" id="ojk-kV-jSV"/>
+                            <constraint firstItem="YLG-1i-gBv" firstAttribute="top" secondItem="9iH-BT-iUO" secondAttribute="bottom" constant="8" id="u3n-Bg-VnS"/>
+                            <constraint firstAttribute="centerY" secondItem="9iH-BT-iUO" secondAttribute="centerY" constant="13" id="udD-GZ-iXy"/>
                             <constraint firstItem="YLG-1i-gBv" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="y8f-sU-LCW"/>
                             <constraint firstItem="hfH-A0-A9O" firstAttribute="top" secondItem="abt-qS-YOP" secondAttribute="bottom" constant="8" id="ysJ-HD-Tbu"/>
                         </constraints>

@@ -18,15 +18,21 @@
 - (IBAction)handleRotationGesture:(UIRotationGestureRecognizer *)gestureRecognizer;
 - (IBAction)sliderDidChange:(id)sender;
 - (IBAction)resetButtonPressed:(id)sender;
+- (IBAction)colorSelected:(id)sender;
 @end
+
+typedef NS_ENUM(NSUInteger, NHArrowViewColorIndex) {
+    kColorIndexRed = 0,
+    kColorIndexBlue,
+    kColorIndexGreen,
+    kColorIndexGray
+};
 
 @implementation NHViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.arrowView.strokeColor = [UIColor blueColor];
-    self.arrowView.fillColor = [UIColor blueColor];
 }
 
 - (void)didReceiveMemoryWarning
@@ -40,7 +46,7 @@
 - (IBAction)handleRotationGesture:(UIRotationGestureRecognizer *)gestureRecognizer;
 {
     CGFloat dampedRads = gestureRecognizer.rotation;
-    [self.arrowView animatedRotateToRadians: dampedRads];
+    [self.arrowView animatedRotateToRadian: dampedRads];
 }
 
 - (IBAction)sliderDidChange:(id)sender;
@@ -67,6 +73,35 @@
     [self.headWidthSlider setValue: self.arrowView.headWidth animated: YES];
     [self.tailWidthSlider setValue: self.arrowView.tailWidth animated: YES];
     [self.strokeWidthSlider setValue: self.arrowView.strokeWidth animated: YES];
+}
+
+- (IBAction)colorSelected:(id)sender;
+{
+    if ([sender isKindOfClass: [UISegmentedControl class]]) {
+        UISegmentedControl *segCtrl = sender;
+        UIColor *colour = nil;
+        switch (segCtrl.selectedSegmentIndex) {
+            case kColorIndexRed:
+                colour = [UIColor redColor];
+                break;
+            case kColorIndexBlue:
+                colour = [UIColor blueColor];
+                break;
+            case kColorIndexGreen:
+                colour = [UIColor greenColor];
+                break;
+            case kColorIndexGray:
+                colour = [UIColor grayColor];
+                break;
+        }
+        [self setArrowViewColor: colour];
+    }
+}
+
+- (void)setArrowViewColor: (UIColor*)color
+{
+    self.arrowView.strokeColor = color;
+    self.arrowView.fillColor = color;
 }
 
 @end
