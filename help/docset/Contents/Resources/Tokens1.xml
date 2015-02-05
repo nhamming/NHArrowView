@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NHArrowView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NHArrowView</TokenIdentifier>
+			<Abstract type="html">NHArrowView is a simple directional arrow with animated rotation. Rotation is achieved with the publically availbale methods and by passing in either the desired degrees or radians with optional animation details. Note that the arrow is originally drawn horizontally in the view&apos;s frame with a small margin on the x-coordinates.</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NHArrowView/setStrokeColor:</TokenIdentifier>
+			<Abstract type="html">The stroke color used when drawing the arrow. Can be dynamically updated. Default color is red</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *strokeColor</Declaration>
+			
+			
+			<Anchor>//api/name/strokeColor</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NHArrowView/strokeColor</TokenIdentifier>
+			<Abstract type="html">The stroke color used when drawing the arrow. Can be dynamically updated. Default color is red</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *strokeColor</Declaration>
+			
+			
+			<Anchor>//api/name/strokeColor</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NHArrowView/strokeColor</TokenIdentifier>
+			<Abstract type="html">The stroke color used when drawing the arrow. Can be dynamically updated. Default color is red</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *strokeColor</Declaration>
+			
+			
+			<Anchor>//api/name/strokeColor</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NHArrowView/setFillColor:</TokenIdentifier>
+			<Abstract type="html">The fill color used when drawing the arrow. Can be dynamically updated. Default color is red</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *fillColor</Declaration>
+			
+			
+			<Anchor>//api/name/fillColor</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NHArrowView/fillColor</TokenIdentifier>
+			<Abstract type="html">The fill color used when drawing the arrow. Can be dynamically updated. Default color is red</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *fillColor</Declaration>
+			
+			
+			<Anchor>//api/name/fillColor</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NHArrowView/fillColor</TokenIdentifier>
+			<Abstract type="html">The fill color used when drawing the arrow. Can be dynamically updated. Default color is red</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIColor *fillColor</Declaration>
+			
+			
+			<Anchor>//api/name/fillColor</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NHArrowView/setStrokeWidth:</TokenIdentifier>
+			<Abstract type="html">The stroke width used when drawing the arrow. Can be dynamically updated. Default value is 2</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat strokeWidth</Declaration>
+			
+			
+			<Anchor>//api/name/strokeWidth</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NHArrowView/strokeWidth</TokenIdentifier>
+			<Abstract type="html">The stroke width used when drawing the arrow. Can be dynamically updated. Default value is 2</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat strokeWidth</Declaration>
+			
+			
+			<Anchor>//api/name/strokeWidth</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NHArrowView/strokeWidth</TokenIdentifier>
+			<Abstract type="html">The stroke width used when drawing the arrow. Can be dynamically updated. Default value is 2</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat strokeWidth</Declaration>
+			
+			
+			<Anchor>//api/name/strokeWidth</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NHArrowView/setHeadWidth:</TokenIdentifier>
+			<Abstract type="html">The head width of the arrow. Can be dynamically updated. Default value is 14</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat headWidth</Declaration>
+			
+			
+			<Anchor>//api/name/headWidth</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NHArrowView/headWidth</TokenIdentifier>
+			<Abstract type="html">The head width of the arrow. Can be dynamically updated. Default value is 14</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat headWidth</Declaration>
+			
+			
+			<Anchor>//api/name/headWidth</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NHArrowView/headWidth</TokenIdentifier>
+			<Abstract type="html">The head width of the arrow. Can be dynamically updated. Default value is 14</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat headWidth</Declaration>
+			
+			
+			<Anchor>//api/name/headWidth</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NHArrowView/setHeadLength:</TokenIdentifier>
+			<Abstract type="html">The head length of the arrow. Can be dynamically updated. Default value is 14</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat headLength</Declaration>
+			
+			
+			<Anchor>//api/name/headLength</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NHArrowView/headLength</TokenIdentifier>
+			<Abstract type="html">The head length of the arrow. Can be dynamically updated. Default value is 14</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat headLength</Declaration>
+			
+			
+			<Anchor>//api/name/headLength</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NHArrowView/headLength</TokenIdentifier>
+			<Abstract type="html">The head length of the arrow. Can be dynamically updated. Default value is 14</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat headLength</Declaration>
+			
+			
+			<Anchor>//api/name/headLength</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NHArrowView/setTailWidth:</TokenIdentifier>
+			<Abstract type="html">The tail width of the arrow. Can be dynamically updated. Default value is 7</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat tailWidth</Declaration>
+			
+			
+			<Anchor>//api/name/tailWidth</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NHArrowView/tailWidth</TokenIdentifier>
+			<Abstract type="html">The tail width of the arrow. Can be dynamically updated. Default value is 7</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat tailWidth</Declaration>
+			
+			
+			<Anchor>//api/name/tailWidth</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NHArrowView/tailWidth</TokenIdentifier>
+			<Abstract type="html">The tail width of the arrow. Can be dynamically updated. Default value is 7</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGFloat tailWidth</Declaration>
+			
+			
+			<Anchor>//api/name/tailWidth</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NHArrowView/animatedRotateToDegree:</TokenIdentifier>
+			<Abstract type="html">Rotates the arrow to provided degree with default animation</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>- (void)animatedRotateToDegree:(CGFloat)degree</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>degree</Name>
+					<Abstract type="html">The degree to which the arrow should point</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/animatedRotateToDegree:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NHArrowView/animatedRotateToRadian:</TokenIdentifier>
+			<Abstract type="html">Rotates the arrow to provided radians with default animation</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>- (void)animatedRotateToRadian:(CGFloat)rad</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>rad</Name>
+					<Abstract type="html">The radian to which the arrow should point</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/animatedRotateToRadian:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NHArrowView/rotateToRadian:animated:duration:</TokenIdentifier>
+			<Abstract type="html">Rotates the arrow to provided radians with animation as specified</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>- (void)rotateToRadian:(CGFloat)rad animated:(BOOL)animated duration:(CGFloat)duration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>rad</Name>
+					<Abstract type="html">The radian to which the arrow should point</Abstract>
+				</Parameter><Parameter>
+					<Name>animated</Name>
+					<Abstract type="html">Indicates where the rotation should be animated</Abstract>
+				</Parameter><Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">Indicated the duration of the animation</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/rotateToRadian:animated:duration:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NHArrowView/reset</TokenIdentifier>
+			<Abstract type="html">Resets the arrow to its default size and shape. Does not reset the stroke and fill colour of the arrow</Abstract>
+			<DeclaredIn>NHArrowView.h</DeclaredIn>
+			
+			<Declaration>- (void)reset</Declaration>
+			
+			
+			<Anchor>//api/name/reset</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>NHArrowView</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node>
+					<Name>Categories</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="2"/>
+						
+					</Subnodes>
+				</Node>
+				
+                
+                
+                
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1" type="file" documentType="reference">
+            <Name>NHArrowView</Name>
+            <Path>Classes/NHArrowView.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/NHArrowView.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/NHArrowView.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/NHArrowView.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/NHArrowView.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		
+		<Node id="2" type="file" documentType="reference">
+            <Name>UIBezierPath(Arrow)</Name>
+            <Path>Categories/UIBezierPath+Arrow.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Categories/UIBezierPath+Arrow.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Categories/UIBezierPath+Arrow.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Categories/UIBezierPath+Arrow.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+            </Subnodes>
+            
+        </Node>
+		
+        
+        
+        
+	</Library>
+</DocSetNodes>

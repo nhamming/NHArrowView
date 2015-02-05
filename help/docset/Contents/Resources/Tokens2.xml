@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIBezierPath+Arrow.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIBezierPath(Arrow)</TokenIdentifier>
+			<Abstract type="html">UIBezierPath+Arrow constructs a bezier path for a typical block arrow with filled head.</Abstract>
+			<DeclaredIn>UIBezierPath+Arrow.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UIBezierPath/bezierPathWithArrowFromPoint:toPoint:tailWidth:headWidth:headLength:</TokenIdentifier>
+			<Abstract type="html">Constructs a bezier path for an arrow. The tail and tip points define the centre of the tail and tip of the arrow, respectively, and the arrow&apos;s path is created in between for the specific constrains.</Abstract>
+			<DeclaredIn>UIBezierPath+Arrow.h</DeclaredIn>
+			
+			<Declaration>+ (UIBezierPath *)bezierPathWithArrowFromPoint:(CGPoint)tailPoint toPoint:(CGPoint)tipPoint tailWidth:(CGFloat)tailWidth headWidth:(CGFloat)headWidth headLength:(CGFloat)headLength</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tailPoint</Name>
+					<Abstract type="html">The point that indicates the centre of the arrow&apos;s tail</Abstract>
+				</Parameter><Parameter>
+					<Name>tipPoint</Name>
+					<Abstract type="html">The point that indicates the tip of the arrow&apos;s head</Abstract>
+				</Parameter><Parameter>
+					<Name>tailWidth</Name>
+					<Abstract type="html">Specifies the size of the tail width</Abstract>
+				</Parameter><Parameter>
+					<Name>headWidth</Name>
+					<Abstract type="html">Specifies the size of the head width</Abstract>
+				</Parameter><Parameter>
+					<Name>headLength</Name>
+					<Abstract type="html">Specifies the size of the head length</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The bezier path of the arrow</Abstract></ReturnValue>
+			<Anchor>//api/name/bezierPathWithArrowFromPoint:toPoint:tailWidth:headWidth:headLength:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

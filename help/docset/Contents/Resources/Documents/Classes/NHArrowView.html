@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>NHArrowView Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">NHArrowView </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Centre for Global eHealth Innovation</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/fillColor">fillColor</option>
+		
+		<option value="//api/name/headLength">headLength</option>
+		
+		<option value="//api/name/headWidth">headWidth</option>
+		
+		<option value="//api/name/strokeColor">strokeColor</option>
+		
+		<option value="//api/name/strokeWidth">strokeWidth</option>
+		
+		<option value="//api/name/tailWidth">tailWidth</option>
+		
+	</optgroup>
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/animatedRotateToDegree:">- animatedRotateToDegree:</option>
+		
+		<option value="//api/name/animatedRotateToRadian:">- animatedRotateToRadian:</option>
+		
+		<option value="//api/name/reset">- reset</option>
+		
+		<option value="//api/name/rotateToRadian:animated:duration:">- rotateToRadian:animated:duration:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">NHArrowView Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>UIView</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>NHArrowView.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><code>NHArrowView</code> is a simple directional arrow with animated rotation. Rotation is achieved with the publically availbale methods and by passing in either the desired degrees or radians with optional animation details. Note that the arrow is originally drawn horizontally in the view&rsquo;s frame with a small margin on the x-coordinates.</p>
+
+<p>Some style aspects of the arrow are customizable, but the arrow itself is drawn as a typical block arrow with filled head. If one would like to adjust the bezier path of the arrow, please refer to UIBezierPath+Arrow category. As well, one could override the draw method of NHArrowView to achieve additional customization.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						<h2 class="task-title">Other Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/strokeColor" title="strokeColor"></a>
+	<h3 class="method-title"><code><a href="#//api/name/strokeColor">&nbsp;&nbsp;strokeColor</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The stroke color used when drawing the arrow. Can be dynamically updated. Default color is red</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIColor *strokeColor</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NHArrowView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fillColor" title="fillColor"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fillColor">&nbsp;&nbsp;fillColor</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The fill color used when drawing the arrow. Can be dynamically updated. Default color is red</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UIColor *fillColor</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NHArrowView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/strokeWidth" title="strokeWidth"></a>
+	<h3 class="method-title"><code><a href="#//api/name/strokeWidth">&nbsp;&nbsp;strokeWidth</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The stroke width used when drawing the arrow. Can be dynamically updated. Default value is 2</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat strokeWidth</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NHArrowView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/headWidth" title="headWidth"></a>
+	<h3 class="method-title"><code><a href="#//api/name/headWidth">&nbsp;&nbsp;headWidth</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The head width of the arrow. Can be dynamically updated. Default value is 14</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat headWidth</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NHArrowView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/headLength" title="headLength"></a>
+	<h3 class="method-title"><code><a href="#//api/name/headLength">&nbsp;&nbsp;headLength</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The head length of the arrow. Can be dynamically updated. Default value is 14</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat headLength</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NHArrowView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/tailWidth" title="tailWidth"></a>
+	<h3 class="method-title"><code><a href="#//api/name/tailWidth">&nbsp;&nbsp;tailWidth</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The tail width of the arrow. Can be dynamically updated. Default value is 7</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGFloat tailWidth</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NHArrowView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Rotation Methods" name="task_Rotation Methods"></a>
+						<h2 class="task-title">Rotation Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/animatedRotateToDegree:" title="animatedRotateToDegree:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/animatedRotateToDegree:">&ndash;&nbsp;animatedRotateToDegree:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Rotates the arrow to provided degree with default animation</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)animatedRotateToDegree:(CGFloat)<em>degree</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>degree</code></th>
+						<td><p>The degree to which the arrow should point</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NHArrowView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/animatedRotateToRadian:" title="animatedRotateToRadian:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/animatedRotateToRadian:">&ndash;&nbsp;animatedRotateToRadian:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Rotates the arrow to provided radians with default animation</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)animatedRotateToRadian:(CGFloat)<em>rad</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rad</code></th>
+						<td><p>The radian to which the arrow should point</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NHArrowView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/rotateToRadian:animated:duration:" title="rotateToRadian:animated:duration:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/rotateToRadian:animated:duration:">&ndash;&nbsp;rotateToRadian:animated:duration:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Rotates the arrow to provided radians with animation as specified</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)rotateToRadian:(CGFloat)<em>rad</em> animated:(BOOL)<em>animated</em> duration:(CGFloat)<em>duration</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>rad</code></th>
+						<td><p>The radian to which the arrow should point</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>animated</code></th>
+						<td><p>Indicates where the rotation should be animated</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>duration</code></th>
+						<td><p>Indicated the duration of the animation</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NHArrowView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/reset" title="reset"></a>
+	<h3 class="method-title"><code><a href="#//api/name/reset">&ndash;&nbsp;reset</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Resets the arrow to its default size and shape. Does not reset the stroke and fill colour of the arrow</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)reset</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">NHArrowView.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Centre for Global eHealth Innovation. All rights reserved. Updated: 2015-02-05</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
