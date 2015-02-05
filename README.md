@@ -28,7 +28,7 @@ To install NHArrowView in another project, simply add the following line to your
 
 ## Author
 
-Nathaniel Hamming, nathaniel.hamming@gmail.com
+Nathaniel Hamming, nhamming@ehealthinnovation.org
 
 ## License
 
