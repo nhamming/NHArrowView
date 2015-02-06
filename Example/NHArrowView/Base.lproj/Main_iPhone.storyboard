@@ -39,8 +39,8 @@
                                 <rect key="frame" x="16" y="257" width="288" height="29"/>
                                 <segments>
                                     <segment title="Red"/>
-                                    <segment title="Blue"/>
                                     <segment title="Green"/>
+                                    <segment title="Blue"/>
                                     <segment title="Gray"/>
                                 </segments>
                                 <connections>
