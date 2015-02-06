@@ -8,7 +8,7 @@ A simple directional arrow with animated rotation
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-The arrow view can included in IB or created programmatically. It is a simple UIView subclass that offers a bit of styling and convenience methods for rotating the arrow to a specified angle in degree or radian.
+The arrow view can be included in IB or created programmatically. It is a simple UIView subclass that offers a some styling and convenience methods for rotating the arrow to a specified angle in degree or radian.
 
 ```
   #import "NHArrowView.h"
