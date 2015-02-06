@@ -33,23 +33,26 @@
 {
     if (self = [super initWithCoder:aDecoder])
     {
-        self.strokeColor = [UIColor redColor];
-        self.fillColor = [UIColor redColor];
-        [self setBackgroundColor:[UIColor clearColor]];
-        [self setDefaults];
+        [self setup];
     }
     return self;
 }
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
-    if (self = [super initWithFrame: frame]) {
-        self.strokeColor = [UIColor redColor];
-        self.fillColor = [UIColor redColor];
-        [self setBackgroundColor:[UIColor clearColor]];
-        [self setDefaults];
+    if (self = [super initWithFrame: frame])
+    {
+        [self setup];
     }
     return self;
+}
+
+- (void)setup;
+{
+    self.strokeColor = [UIColor redColor];
+    self.fillColor = [UIColor redColor];
+    [self setBackgroundColor:[UIColor clearColor]];
+    [self setDefaults];
 }
 
 - (void)setDefaults;

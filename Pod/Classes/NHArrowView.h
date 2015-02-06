@@ -32,7 +32,7 @@
  
  @return The radian value for the specific degree
  */
-#define DEGREES_TO_RADIANS(degree) ((degree) / 180.0 * M_PI)
+#define DEGREES_TO_RADIANS(degree) ((degree * M_PI) / 180.0 )
 
 /**
  Function to convert radians to degrees
@@ -41,7 +41,7 @@
  
  @return The degree value for the specific radian
  */
-#define RADIANS_TO_DEGREES(radian) ((radian) /  M_PI * 180.0)
+#define RADIANS_TO_DEGREES(radian) ((radian * 180.0) /  M_PI )
 
 /**
  `NHArrowView` is a simple directional arrow with animated rotation. Rotation is achieved with the publically availbale methods and by passing in either the desired degrees or radians with optional animation details. Note that the arrow is originally drawn horizontally in the view's frame with a small margin on the x-coordinates.

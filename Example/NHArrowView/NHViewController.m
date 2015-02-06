@@ -23,8 +23,8 @@
 
 typedef NS_ENUM(NSUInteger, NHArrowViewColorIndex) {
     kColorIndexRed = 0,
-    kColorIndexBlue,
     kColorIndexGreen,
+    kColorIndexBlue,
     kColorIndexGray
 };
 
@@ -84,11 +84,11 @@ typedef NS_ENUM(NSUInteger, NHArrowViewColorIndex) {
             case kColorIndexRed:
                 colour = [UIColor redColor];
                 break;
-            case kColorIndexBlue:
-                colour = [UIColor blueColor];
-                break;
             case kColorIndexGreen:
                 colour = [UIColor greenColor];
+                break;
+            case kColorIndexBlue:
+                colour = [UIColor blueColor];
                 break;
             case kColorIndexGray:
                 colour = [UIColor grayColor];
