@@ -30,7 +30,7 @@ SPEC CHECKSUMS:
   Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
   Expecta+Snapshots: 4a56b9411c6ed156987072e52c39de67d864015a
   FBSnapshotTestCase: e2914fbaabccea1dcc773d6a16b1c24540642488
-  NHArrowView: eef892970502fc2a543c03cdd50869c2ba0cbcdc
+  NHArrowView: e96f03f73957ebe6f58edbcd03dae5ee5adbf7c5
   Specta: 63e8ac8e07db6675c7096d37f77a266a1be4c02d
 
 COCOAPODS: 0.35.0
