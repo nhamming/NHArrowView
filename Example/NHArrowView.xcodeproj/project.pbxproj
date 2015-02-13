@@ -549,6 +549,7 @@
 				GCC_PREFIX_HEADER = "NHArrowView/NHArrowView-Prefix.pch";
 				INFOPLIST_FILE = "NHArrowView/NHArrowView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
