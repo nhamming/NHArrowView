@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "A simple directional arrow with animated rotation."
   s.homepage         = "https://github.com/nhamming/NHArrowView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Nathaniel Hamming" => "nathaniel.hamming@gmail.com" }
   s.source           = { :git => "https://github.com/nhamming/NHArrowView.git", :tag => s.version.to_s }
@@ -26,7 +25,6 @@ Pod::Spec.new do |s|
     'NHArrowView' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit'
 end
