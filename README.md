@@ -26,6 +26,10 @@ To install NHArrowView in another project, simply add the following line to your
 
     pod "NHArrowView", :git "git@github.ehealthinnovation.org:JDRF/NHArrowView.git"
 
+## Documentation
+
+`appledoc` of the pod can be found at `./doc/html/index.html`
+
 ## Author
 
 Nathaniel Hamming, nhamming@ehealthinnovation.org
