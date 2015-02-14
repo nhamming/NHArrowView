@@ -24,7 +24,7 @@ The arrow view can be included in IB or created programmatically. It is a simple
 
 To install NHArrowView in another project, simply add the following line to your Podfile:
 
-    pod "NHArrowView", :git "git@github.ehealthinnovation.org:JDRF/NHArrowView.git"
+    pod "NHArrowView"
 
 ## Documentation
 
